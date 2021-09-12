@@ -11,7 +11,7 @@
 R package to generate 'Cumulative Percent Decay' curves, with optional 
 filtering functions, for microbial taxonomic profiles.
 
-![Example of Cumulative Percent Decay curves](inst/extdata/cuperdec_example_plot.svg)
+![Example of Cumulative Percent Decay curves](https://raw.githubusercontent.com/jfy133/cuperdec/master/inst/extdata/cuperdec_example_plot.svg)
 
 These curves aim to represent the level of 'endogenous' content of microbiome 
 samples, such as ancient dental calculus, to help to identify samples with low
@@ -19,7 +19,13 @@ levels of preservation that should be discarded for downstream analysis.
 
 ## Installation
 
-This package is still in development. To install for testing, you can run
+`cuperdec` is on CRAN. You can install the package with the usual command
+
+```r
+install.packages("cuperdec")
+```
+
+To install the development version for testing, you can run
 the following
 
 ```r
@@ -30,6 +36,12 @@ devtools::install_github("jfy133/cuperdec")
 ## Documentation
 
 Please see `vignettes/cuperdec-intro.Rmd`.
+
+## Citation
+
+If you use `cuperdec`, please use the following citation:
+
+> Fellows Yates, J. A. et al. (2021) ‘The evolution and changing ecology of the African hominid oral microbiome’, Proceedings of the National Academy of Sciences of the United States of America, 118(20), p. e2021655118. doi: [10.1073/pnas.2021655118](http://dx.doi.org/10.1073/pnas.2021655118).
 
 ## Acknowledgments
 
